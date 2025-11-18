@@ -122,8 +122,8 @@ export default function Home() {
   }, [state.audio?.src]);
 
   return (
-    <div className="h-screen bg-background text-foreground">
-      <main className="mx-auto flex h-full w-full max-w-6xl flex-col gap-4 px-6 py-6">
+    <div className="min-h-screen bg-background text-foreground">
+      <main className="mx-auto flex w-full max-w-6xl flex-col gap-4 px-6 py-6">
         <header className="flex flex-col gap-2 rounded-lg border border-border px-4 py-3 shadow-sm lg:flex-row lg:items-center lg:justify-between">
           <div className="flex items-center gap-2">
             <Flame className="size-6" />
@@ -133,11 +133,11 @@ export default function Home() {
             </div>
           </div>
           <div className="text-xs text-muted-foreground">
-            Use desktop to get better experience • mobile is not currently supported
+            Use desktop for better experience • Mobile scrolling enabled
           </div>
         </header>
 
-        <div className="grid h-full gap-4 overflow-hidden lg:grid-cols-3">
+        <div className="grid gap-4 lg:grid-cols-3">
           <section className="flex flex-col rounded-lg border border-border p-4 shadow-sm">
             <div className="mb-3">
               <h2 className="mb-3 flex items-center gap-2 text-lg font-medium">
