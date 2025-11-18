@@ -133,7 +133,7 @@ export default function Home() {
             </div>
           </div>
           <div className="text-xs text-muted-foreground">
-            Three-column capture • fits on one screen
+            Use desktop to get better experience • mobile is not currently supported
           </div>
         </header>
 
